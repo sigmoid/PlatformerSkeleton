@@ -49,7 +49,7 @@ public class PlatformerCollisionManager : MonoBehaviour {
         {
             if (colliders[i].GetType() != typeof(PolygonCollider2D))
             {
-                //Debug.LogError("I DONT KNOW WHAT TO DO WITH THIS SHIT");
+		// Implementation only supports polygon colliders
                 continue;
             }
             else
